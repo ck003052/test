@@ -1,0 +1,18 @@
+body > main > article {
+  width: 70%;
+  margin: auto;
+
+}
+
+body > main > article > img {
+  width: 500px
+  ;
+}
+
+form {
+  text-align: center;
+}
+
+aside > section > nav {
+
+}
