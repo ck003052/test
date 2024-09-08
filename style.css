@@ -13,6 +13,9 @@ form {
   text-align: center;
 }
 
-aside > section > nav {
-
+ #leftFlexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+

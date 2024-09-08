@@ -1,0 +1,57 @@
+#HeaderFlexbox {
+  display: flex;
+  align-items: center;
+
+}
+
+#nasa-image {
+  width: 24vh;
+}
+
+header {
+  background-color: #142D3E;
+  padding-bottom: 25px;
+
+
+}
+
+header > nav ul {
+  list-style-type: none;
+
+
+}
+
+#leftFlexbox {
+  display: flex;
+justify-content: space-between ;
+
+align-items: center;
+margin-right: 4vw;
+}
+
+#rightFlexbox {
+  display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+#leftSection {
+flex: 0.75;
+align-items: center;
+}
+
+#rightSection {
+  flex: 0.5;
+}
+
+#middleSection {
+
+  
+}
+
+header nav li {
+  color: #fff;
+  font-family: "Rajdhani", Helvetica;
+  font-weight: bolder;
+  font-size: 18px;
+}
