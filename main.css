@@ -12,7 +12,9 @@ h1 {
 
 .hero-Section-flexbox {
   display: flex;
-  gap: 20px;
+  gap: 15px;
+  background-color: #ffffff;
+padding: 12px;
 }
 
 .hero-Section {
@@ -49,7 +51,7 @@ margin: 0;
 display: inline-block;
 font-size: 2.9vh;
 font-weight:550;
-font-family: "Rajdhani", Helvetica, Arial, sans-serif;
+
 
 }
 main {
@@ -62,7 +64,7 @@ h1 {
 }
 h1, h2 {
   font-weight: 700;
-  font-family: "Rajdhani", Helvetica, Arial, sans-serif;
+
 }
 
 .main-text {
@@ -73,7 +75,6 @@ margin: 0;
 
 .main-text, .side-text {
   font-size: 2.50vh;
-  font-family: "PT Sans", Helvetica, sans-serif;
   display :block;
 }
 
@@ -119,4 +120,71 @@ a:hover {
 a:visited {
   color: white;  
   text-decoration: underline; 
+}
+
+.second-main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 15px;
+
+  padding: 12px;
+}
+
+.grid-image-div {
+  
+}
+
+.grid-image {
+  width: 100%;
+}
+
+
+.second-main-grid  img:hover {
+
+}
+
+h3 {
+  margin: 0;
+  font-size: 3.4vh;
+  color: #0f66A7;
+  font-weight: 700;
+  font-style: normal;
+  margin: 3px 0 8px;
+  line-height: 25.2px;
+}
+.featured-text, h3, h1, h2 {
+  font-family: "Rajdhani", Helvetica, Arial, sans-serif;
+}
+.preview-text {
+font-size: 2.4vh;
+}
+
+.main-text, .side-text, .preview-text, .learn-more-button {
+  font-family: "PT Sans", Helvetica, sans-serif;
+}
+
+.preview-container {
+  background-color: #ffffff;
+  padding: 12px;
+  transition: box-shadow 0.3s ease; 
+
+}
+.learn-more-button {
+  background-color: #0f66A7;
+  color: #ffffff;
+  border: none;
+  padding: 9px 10px ;
+ 
+}
+.flex {
+  display: flex;
+
+align-content: center;
+}
+
+.preview-container:hover {
+ 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6); 
+  cursor: pointer;
+  opacity: 0.8;
 }

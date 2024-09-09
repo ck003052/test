@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../Downloads/5.4+Color+Vocab+Project/assets"
+		},
+		{
+			"path": "../../../Downloads/5.4+Color+Vocab+Project/solution"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Couch for Coder"
+	}
+}
